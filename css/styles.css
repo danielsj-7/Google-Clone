@@ -1,0 +1,60 @@
+/*Reset*/
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*Snippet for REM´s*/
+body {
+    font-family: arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    /*Rem ratio 10px --> 1rem*/
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #222;
+    line-height: 2.4rem;
+}
+.text--link:hover{
+    text-decoration: underline;
+    opacity: .85;
+}
+.nav-bar {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-bar__links {
+    display: flex;
+    align-items: center;
+    min-width: 19.5rem;
+    list-style: none;
+    padding: 0 3rem;
+}
+.nav-bar__item{
+    padding-left: 1.5rem;
+}
+
+.nav-bar__img-opt{
+    background-image: url("../images/options.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height:25px;
+}
+.nav-bar__img-profile{
+    background-image: url("https://lh3.googleusercontent.com/ogw/ADGmqu8ZSDbnAW_nmM1dMvqLzLUSBzeHtzyGdCcFyRbL=s32-c-mo");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 50%;
+    width: 32px;
+    height:32px;
+}
+
+
